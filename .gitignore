@@ -1,0 +1,32 @@
+# Archivos de entorno con datos sensibles
+.env
+.env.local
+.env.*.local
+
+# Dependencias y paquetes
+/vendor/
+/node_modules/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos de configuración de IDEs y editores
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Archivos de logs y temporales
+*.log
+/logs/
+/tmp/
+
+# Archivos comprimidos de respaldos locales
+*.zip
+*.tar.gz
+*.rar
